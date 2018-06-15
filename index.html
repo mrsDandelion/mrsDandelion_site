@@ -9,18 +9,16 @@
 	<body>
         <div class="wrapper">
             <header>
-                    <div class="content">                        
-                        <nav>
-                            <ul>
-                                <li><a href="about">Об игре</a></li>
-                                <li><a href="#tasks">Задачи</a></li>
-                                <li><a href="#screenshots">Скриншоты</a></li>
-                                <li><a href="#play">Играть</a></li>
-                                <li><a href="#developer">Разработчик</a></li>
-                            </ul>
-                        </nav>
-                        
-                    </div>
+                <div class="content">                        
+                    <nav>
+                        <ul>
+                            <li><a href="#about_game">Об игре</a></li>
+                            <li><a href="#tasks">Задачи</a></li>
+                            <li><a href="#screenshots">Скриншоты</a></li>
+                            <li><a href="#developer">Разработчик</a></li>
+                        </ul>
+                    </nav>                    
+                </div>
             </header>
             <main>
                 <section class = "play">
@@ -30,12 +28,13 @@
                         <img src = "images/start_page.png" alt = "magic game"/>                        
                     </div>
                 </section>                    
-                <section class = "about_game">
+                <section class = "about_game" id = "about_game">
                     <div class="content">
                         <h2>Об игре</h2>
+                        <p>Игра расчитана на детей 8-10 лет и включает в себя 14 задач, которые решить детям в рандомном порядке. В резельтате хорошего выполнения </p>
                     </div>
                 </section>
-                <section class = "tasks">
+                <section class = "tasks" id = "tasks">
                     <div class="content">
                         <h2>ЗАДАЧИ</h2>
                         <div class = "wrapper_task">
@@ -59,7 +58,7 @@
                             <img src = "images/tasks/believe.jpg" alt = "Задача верю-не верю"/>
                         </div>
                         <div class = "wrapper_task">
-                            <h3>Впишите <, >, =</h3>
+                            <h3>Впишите &lt;, >, =</h3>
                             <img src = "images/tasks/comprassion.jpg" alt = "Задача на сравнение"/>
                         </div>
                         <div class = "wrapper_task">
@@ -96,7 +95,7 @@
                         </div>
                     </div>
                 </section>
-                <section class = "screenshots">
+                <section class = "screenshots" id = "screenshots">
                     <div class="content">
                         <h2>СКРИНШОТЫ ИГРЫ</h2>
                         <img src = "images/start.jpg" alt = ""/>
@@ -111,9 +110,8 @@
                         <img src = "images/rebus.jpg" alt = ""/>
                         <img src = "images/acsent.jpg" alt = ""/>
                     </div>
-                </section>
-                
-                <section class = "developer">
+                </section>                
+                <section class = "developer" id = "developer">
                     <div class="content">
                         <h2>Разработчик</h2>                        
                         <img src = "images/foto.jpg" alt = "Драчук Дарья"/>

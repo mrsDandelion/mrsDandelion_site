@@ -28,6 +28,11 @@ header li
     border: 1px solid rgba(0,0,0,0);
     margin: 0 20px;
 }
+header li a
+{
+    color: #4d4d4d;
+}
+
 header li:hover
 {
     border: 1px solid #61861F;
@@ -87,7 +92,7 @@ header, ul
 .tasks
 {
     background: url(images/background/snow_background.png);
-    padding: 50px 0;
+    padding: 100px 0;
     text-align: center;
 }
 .wrapper_task
@@ -114,7 +119,7 @@ h2
 {
     text-align: center;
     background: url(images/background/background_top.jpg);
-    padding: 50px 0;
+    padding: 100px 0;
 }
 .screenshots img
 {
@@ -129,7 +134,7 @@ h2
 {
     text-align: center;
     background: url(images/background/snow_background.png);
-    padding: 50px 0;
+    padding: 100px 0;
 }
 .developer p 
 {
@@ -162,5 +167,20 @@ footer p
 {
     line-height: 60px;
     text-align: center;
-    color: #4d4d4d;
+    color: #4d4d4d;    
+}
+.about_game
+{
+    text-align: center;
+    padding: 100px 0;
+    background: url(images/background/background_task.jpg);
+}
+.about_game p
+{
+    width: 500px;
+    border: 2px solid #61861F;
+    background: #EAEDA4;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
 }
