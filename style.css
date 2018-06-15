@@ -16,7 +16,7 @@ h1
 {
     display: none;
 }
-header
+header, footer
 {
     height: 60px;
     background-color: #A5CC5B;
@@ -87,7 +87,7 @@ header, ul
 .tasks
 {
     background: url(images/background/snow_background.png);
-    padding: 20px 0;
+    padding: 50px 0;
     text-align: center;
 }
 .wrapper_task
@@ -102,11 +102,65 @@ header, ul
     color: #61861F;
     font-size: 18px;
 }
-.tasks h2
+h2
 {
     font-size: 30px;
     color: #61861F;
     text-shadow: 1px 1px black;
     font-weight: bold;
-    margin: 20px 0 10px 0;
+    padding: 20px 0 10px 0;
+}
+.screenshots
+{
+    text-align: center;
+    background: url(images/background/background_top.jpg);
+    padding: 50px 0;
+}
+.screenshots img
+{
+    margin: 10px 0;
+}
+.developer img
+{
+    border-radius: 50%;
+    margin: 10px 0; 
+}
+.developer
+{
+    text-align: center;
+    background: url(images/background/snow_background.png);
+    padding: 50px 0;
+}
+.developer p 
+{
+    font-size: 18px;
+}
+.developer a
+{
+    display:block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    background: black;
+    line-height: 30px;
+    margin: auto;
+}
+.developer a:hover
+{
+    background: #61861F;
+}
+.developer a i 
+{
+    color: white;
+}
+.developer img + p
+{
+    margin-bottom: 10px;
+}
+footer p
+{
+    line-height: 60px;
+    text-align: center;
+    color: #4d4d4d;
 }
