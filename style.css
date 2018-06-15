@@ -84,4 +84,29 @@ header, ul
       transform: scale3d(1, 1, 1);
     }
   }
-  
+.tasks
+{
+    background: url(images/background/snow_background.png);
+    padding: 20px 0;
+    text-align: center;
+}
+.wrapper_task
+{
+    display: inline-block;
+    width: 49%;
+    margin: 20px 0;
+}
+.wrapper_task h3
+{
+    margin-bottom: 10px;
+    color: #61861F;
+    font-size: 18px;
+}
+.tasks h2
+{
+    font-size: 30px;
+    color: #61861F;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
